@@ -108,7 +108,7 @@ onSubmit = async (event) => {
     } else {
       this.setState({ sendingAccount:accounts[0] });
       console.log('Sending from Metamask account: ' + accounts[0]);
-      signMsg(this.state.address,accounts[0])
+      // signMsg(this.state.address,accounts[0])
     } 
 
     /* function signMsg(msgParams, from) {
