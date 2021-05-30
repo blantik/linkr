@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 export default function App () {
   return (
-    <Router>
+    <Router basename={process.env.REACT_APP_PUBLIC_URL}>
       <AppBar />
       <Container maxWidth='sm'>
         <Box my={4}>
