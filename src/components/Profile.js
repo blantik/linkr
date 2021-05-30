@@ -14,6 +14,7 @@ import Container from '@material-ui/core/Container'
 // import IPFS from 'ipfs'
 // import IPFS from './web3/ipfs'
 import ProfileGet from './ProfileGet'
+import Gallery from './Galllery'
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -62,6 +63,9 @@ export default function Profile () {
           Mark Zulkerberg
         </Typography>``
         <List className={classes.root}>
+          <ListItem>
+            <Gallery />
+          </ListItem>
           <ListItem>
             <ListItemAvatar>
               <Avatar>
